@@ -97,9 +97,9 @@ sub set_directory_path{
     my $dataDirectorySuffix = $account . '/' . $testpgm . '/' . $admin;
     my $filePrefix  = $account . '_' . $testpgm . '_' . $admin . '_';
     $dataDirectory = $dataDirectoryPrefix . '/data/' . $dataDirectorySuffix;
-    $configDirectory = 'C:\Strawberry\perl scripts';
-    $configFileName  = 'C:\Strawberry\perl scripts\cb_ss.yaml';
-    $logDirectory   =  'C:\Strawberry\perl scripts\logs';
+    $configDirectory = 'C:\Strawberry\perl-scripts_git';
+    $configFileName  = 'C:\Strawberry\perl-scripts_git\cb_ss.yaml';
+    $logDirectory   =  'C:\Strawberry\perl-scripts_git\logs';
     $logFileName    =  $logDirectory.'\cb_inbound_logs.log';
     $logFileName2   =  $logDirectory.'\cb_inbound_logs_copy.log';
    #print "\n" . $dataDirectoryPrefix ;
