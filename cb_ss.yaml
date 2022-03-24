@@ -1,0 +1,36 @@
+################################################################################################################
+#
+#
+#
+#
+#
+#
+################################################################################################################
+---
+# just a scalar mapping
+#emailName : David
+
+# sequence of email address
+#emailAddress1 : 
+#              sudhanshu67.sk@gmail.com
+#              maanyakumari31@gmail.com
+
+# sequence of scalar mappings
+#credentials1 :
+#             UserNAme : qwerty
+#             Password : abcdefg
+
+#emailAddress : sudhanshu67.sk@gmail.com
+#credentials : qwerty
+
+emailName: David
+credentials: qwerty
+credentials1: 
+  Password: abcdefg
+  UserNAme: qwerty
+emailAddress: sudhanshu67.sk@gmail.com
+emailAddress1: 
+  first: $emailAddress
+  second: maanyakumari31@gmail.com
+  third: $emailName@gmail.com
+
